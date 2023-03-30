@@ -15,7 +15,7 @@ $(() => {
         }
     })
 
-    $(".botao").click(function () {
+    $(".btn-fabricar").click(function () {
         var dataAction = $(this).attr('data-action');
         console.log(dataAction)
         $.post("http://conti_proarmas/botao", JSON.stringify({ arma: dataAction}))
