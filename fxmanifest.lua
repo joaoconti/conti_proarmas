@@ -3,7 +3,7 @@ game 'gta5'
 
 author 'Conti#0345'
 description 'Produção de armas'
-version '1.0.0'
+version '1.2.0'
 
 client_scripts {
     '@vrp/lib/utils.lua',

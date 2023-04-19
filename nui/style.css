@@ -44,6 +44,7 @@
 .titulo-arma>img {
     display: flex;
     margin-top: -20px;
+    object-fit: contain;
 }
 
 .itens {
@@ -64,6 +65,7 @@
 .itens>div>img {
     border-top: 1px solid rgb(255, 0, 0);
     border-bottom: 1px solid rgb(255, 0, 0);
+    object-fit: contain;
 }
 
 /*                                       ATIVE A GOSTO                                */
